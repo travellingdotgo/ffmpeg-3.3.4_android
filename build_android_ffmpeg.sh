@@ -17,7 +17,6 @@ function build_one {
      --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
      --target-os=linux \
      --arch=arm \
-     --enable-neon \
      --enable-cross-compile \
      --sysroot=$SYSROOT \
      --extra-cflags="-Os -fpic $ADDI_CFLAGS" \
